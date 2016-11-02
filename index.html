@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="word_freq.css">
+
+</head>
+<body>
+
+    <!-- template -->
+
+    <div class="container"> <!-- inputs -->
+        <div class="input-group col-sm-4 col-sm-offset-4" id="word-search">
+            <input type="text" class="form-control" placeholder="Search for ">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+            </span>
+        </div> <!-- inputs -->
+
+        <div id="svg-canvas"> <!-- display -->
+            <svg class="chart"></svg>
+        </div> <!-- display -->
+
+
+    </div>
+
+    <!-- CDN deps-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Local scripts -->
+    <script src="word_freq.js"></script>
+
+</body>
+</html>
